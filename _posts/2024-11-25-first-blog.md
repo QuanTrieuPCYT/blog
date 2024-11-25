@@ -1,10 +1,10 @@
-## First blog
+## Blog đầu tiên ⭐️
 
-Welcome to my blog! Here, you will find me posting about things that I care and want to write about (simple act called blogging!)
+Chào mừng bạn đến với blog của mình! Tại đây, bạn sẽ thấy mình đăng những điều mà mình quan tâm và muốn viết về (một hành động đơn giản gọi là viết blog!).
 
-This blog is powered by [chadbaldwin's blog template](https://github.com/chadbaldwin/simple-blog-bootstrap) for now.
+Blog này hiện đang sử dụng [mẫu blog của chadbaldwin](https://github.com/chadbaldwin/simple-blog-bootstrap).
 
-Here's a simple `bash` code snippet to test out `highlightjs`. Taken from [here](https://gist.github.com/QuanTrieuPCYT/b77301ce922fa091c8ff6f5d01940d71).
+Dưới đây là một đoạn bash đơn giản để mình test [highlightjs](http://highlightjs.org), được lấy từ cái [GitHub gist này](https://gist.github.com/QuanTrieuPCYT/b77301ce922fa091c8ff6f5d01940d71).
 ```bash
 #!/usr/bin/env bash
 #

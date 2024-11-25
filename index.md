@@ -1,2 +1,2 @@
-# Personal Blog
-Welcome to my personal blog. Ready to serve your traffic!
+# Blog cá nhân
+Chào mừng các bạn đến với blog cá nhân của mình. Đây sẽ là nơi mình chia sẻ về nhiều thứ, từ tech-related cho đến cuộc sống!
