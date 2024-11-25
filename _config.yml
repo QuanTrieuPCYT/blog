@@ -1,0 +1,42 @@
+title: "QuanTrieuPCYT's blog"
+author: "QuanTrieuPCYT"
+description: "Quân's personal blog." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+
+# Email / Social media user names used by the minima theme:
+# All of these are optional and can be removed or commented out
+email: "admin@qtpc.tech"
+twitter_username: "qtpctechhxd"
+github_username: "QuanTrieuPCYT"
+#linkedin_username: "linkedinuser"
+facebook_username: qtpctechhxd
+#flickr_username: username
+instagram_username: qtpctechhxd
+#pinterest_username: username
+youtube_username: QuanTrieuPCYT
+#googleplus_username: +username
+
+#########################################################################################
+######### Nothing below needs to be changed (unless you know what you're doing) #########
+#########################################################################################
+theme: "minima"
+
+rss: rss
+
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+    
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+titles_from_headings:
+  strip_title: true
+  collections: true
+
+defaults:
+  - scope:
+      path: ""
+      type: post
+    values:
+      tags: Other

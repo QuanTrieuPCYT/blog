@@ -1,0 +1,41 @@
+
+<!-- Site build date: {{ "now" | date: "%FT%T%z" }} -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Begin SEO -->
+  {% seo %}
+  <!-- End SEO -->
+
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" type="text/css" href="/css/override.css">
+
+  {% feed_meta %}
+
+  <!-- begin add darkreader-js -->
+  <script src="//unpkg.com/darkreader@4.9.96/darkreader.js"></script>
+  <script type="text/javascript">
+    DarkReader.setFetchMethod(window.fetch);
+    DarkReader.auto( {brightness: 100, contrast: 100, sepia: 0} );
+  </script>
+  <!-- end add darkreader-js -->
+
+  <!-- Begin highlight.js support -->
+  <link rel="stylesheet" href="/js/highlightjs/styles/github.css">
+  <link rel="stylesheet" href="/js/highlightjs/styles/ssms.css" />
+
+  <script type="text/javascript" src="/js/highlightjs/highlight.min.js"></script>
+
+  <script type="text/javascript" src="/js/highlightjs/languages/plaintext.js"></script>
+  <script type="text/javascript" src="/js/highlightjs/languages/bash.js"></script>
+  <script type="text/javascript" src="/js/highlightjs/languages/python.js"></script>
+  <script type="text/javascript" src="/js/highlightjs/languages/javascript.js"></script>
+  <script type="text/javascript" src="/js/highlightjs/languages/gradle.js"></script>
+  <script type="text/javascript" src="/js/highlightjs/languages/c.js"></script>
+  <script type="text/javascript" src="/js/highlightjs/languages/cpp.js"></script>
+
+  <script type="text/javascript"> hljs.highlightAll(); </script>
+  <!-- end highlight.js support -->
+</head>
