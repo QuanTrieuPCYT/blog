@@ -50,6 +50,6 @@ sed -i 's/21/17/g' ./V1_20_R3/pom.xml
 mvn clean package
 # The JAR will be in the folder `./target/`
 ```
-**UPDATED:** Lúc đầu title nó là **Blog đầu tiên ⭐️**, nhưng về sau mình đổi như title (tiếng Anh) tại thằng bạn tôi nó bảo là nghe hợp hơn :joy:
+**UPDATED:** Lúc đầu title nó là **Blog đầu tiên ⭐️**, nhưng về sau mình đổi như title (tiếng Anh) tại thằng bạn tôi nó bảo là nghe hợp hơn 😂
 
 <img width="613" alt="Screenshot 2024-11-25 at 23 51 17" src="https://github.com/user-attachments/assets/21349bff-d8a0-4334-92f2-f33bd36be229">
