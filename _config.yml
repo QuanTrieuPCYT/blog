@@ -40,4 +40,4 @@ defaults:
       path: ""
       type: post
     values:
-      tags: Other
+      tags: Posts
