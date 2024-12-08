@@ -215,7 +215,7 @@ Sau khi flash xong, các bạn **tắt hẳn máy** (đừng reboot) và bật l
 
 ## Notes
 - Blog này được làm để miêu tả quá trình mod trên một chiếc Dell Latitude E7240, nhưng mình cũng đã mod thành công 1 chiếc Dell Vostro 15 3568 qua call online với thằng bạn [Nico](https://www.facebook.com/silly1nico). [Proof ở đây 🤓](/images/proof_nico.jpg)
-- Để tìm hiểu thêm về các loại protection của chip SPI trong máy, bạn có thể check qua [**bài blog này của eclipsium**](https://eclypsium.com/blog/firmware-security-realizations-part-3-spi-write-protections/) hoặc [**thread này trên Win-Raid**](https://winraid.level1techs.com/t/guide-unlock-intel-flash-descriptor-read-write-access-permissions-for-spi-servicing/32449).
+- Để tìm hiểu thêm về các loại protection của chip SPI trong máy, bạn có thể check qua [**bài blog này của eclypsium**](https://eclypsium.com/blog/firmware-security-realizations-part-3-spi-write-protections/) hoặc [**thread này trên Win-Raid**](https://winraid.level1techs.com/t/guide-unlock-intel-flash-descriptor-read-write-access-permissions-for-spi-servicing/32449).
 
 **Alright byee, hẹn gặp lại các bạn ở một post khác ⭐️**
 
