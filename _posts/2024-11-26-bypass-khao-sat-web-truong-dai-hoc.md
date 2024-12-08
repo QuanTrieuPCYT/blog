@@ -3,7 +3,7 @@ layout: post
 title: Bypass khảo sát trên web của trường đại học
 description: Mình đã bypass thành công khảo sát trên web của đại học mình đang theo học như nào?
 date: 2024-11-26 11:34:30 +0700
-image: images/survey-required.png
+image: /images/survey-required.png
 ---
 Như các bạn đã biết (hoặc không?), mình đang theo học tại một trường đại học liên quan đến công nghệ khá là mới ở Việt Nam. Mình sẽ tạm thời không nhắc tới tên ở trong post này vì một vài lí do, nếu bạn muốn biết mình học trường gì thì ghé qua trang chủ (portfolio) của mình thì sẽ biết: [**https://qtpc.tech**](https://qtpc.tech) 😂
 
