@@ -216,6 +216,8 @@ Sau khi flash xong, các bạn **tắt hẳn máy** (đừng reboot) và bật l
 ## Notes
 - Blog này được làm để miêu tả quá trình mod trên một chiếc Dell Latitude E7240, nhưng mình cũng đã mod thành công 1 chiếc Dell Vostro 15 3568 qua call online với thằng bạn [Nico](https://www.facebook.com/silly1nico). [Proof ở đây 🤓](/images/proof_nico.jpg)
 - Để tìm hiểu thêm về các loại protection của chip SPI trong máy, bạn có thể check qua [**bài blog này của eclypsium**](https://eclypsium.com/blog/firmware-security-realizations-part-3-spi-write-protections/) hoặc [**thread này trên Win-Raid**](https://winraid.level1techs.com/t/guide-unlock-intel-flash-descriptor-read-write-access-permissions-for-spi-servicing/32449).
+- Nếu bạn muốn, bạn cũng có thể dump và flash BIOS qua Afuwin hoặc các cách khác nếu thích, dù mình chưa thử (và mình cũng có cảm giác là cái Intel ME nó an toàn hơn 🥲)
+- Post này nếu được áp dụng linh hoạt thì có thể áp dụng trên các máy model khác, thậm chí là hãng khác luôn. Đặc biệt là lũ PC, tại consumer PC thì hiếm có mainboard trang bị Intel Boot Guard, trừ những dòng high-end hoặc vài series pre-built của mấy hãng lớn.
 
 **Alright byee, hẹn gặp lại các bạn ở một post khác ⭐️**
 
