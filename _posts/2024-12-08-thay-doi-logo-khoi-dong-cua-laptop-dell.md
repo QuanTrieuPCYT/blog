@@ -70,7 +70,7 @@ Tuy nhiên, đây không phải là một bản backup BIOS hoàn chỉnh của 
 
 Lệnh dump sẽ dump toàn bộ chip nên yêu cầu toàn bộ phân vùng của BIOS phải có **read access**. Tuy nhiên như trên ảnh, các bạn có thể thấy rằng phân vùng Intel ME không có cả read và write access, khiến cho quá trình đó fail. Điều này chứng tỏ rằng đang có một cái khóa gì đó trong firmware hoặc hardware ràng buộc quá trình này.
 
-<sup>(Nếu các bạn muốn tìm hiểu thêm về những kiểu "khóa" này, đọc phần [Notes](Notes) ở cuối bài.)</sup>
+<sup>(Nếu các bạn muốn tìm hiểu thêm về những kiểu "khóa" này, đọc phần [Notes](#notes) ở cuối bài.)</sup>
 
 Vậy là giờ ta sẽ phải tự tay mod và flash mọi thứ mà phải động tay vào chip sao? Nhưng không, hi vọng giờ đây vẫn chưa hết! Thường thì các nhà sản xuất sẽ để một tùy chọn ẩn trong BIOS cho phép tắt những cái khóa liên quan đến CPU và firmware, nên tiếp theo mình sẽ tiến hành vọc vô cài đặt BIOS của máy, thử xem là có không.
 
