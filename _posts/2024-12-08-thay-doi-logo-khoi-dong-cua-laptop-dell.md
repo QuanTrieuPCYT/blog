@@ -10,12 +10,12 @@ Như các bạn đã biết (hoặc có thể không), mình là một đứa kh
 ## Một tí background
 Ông anh họ mình có nhờ mình cài lại Windows hộ trên một con máy và để lại ở nhà mình vài ngày. Con lap này cụ thể là một con Dell Latitude E7240, xài chip Intel Core i7-4600U, với 4GB RAM DDR3L (hơi ít để xài trong 2024 💀) và SSD mPCIe 128GB.
 
-![image.jpg](/images/e7240_next_to_mbp.jpg)
+![image.jpg](/images/e7240_next_to_mbp.jpg)\
 <sup>Dell Latitude E7240 (phải), để cạnh MacBook Pro 14-inch của mình (trái)</sup>
 
 Thực sự, mình khá là thích con laptop này 😍. Con mắm này có 2 cổng RAM DDR3L, nhận max 1600MHz, kèm với **tận 3 slot mPCIe** cho khả năng mở rộng card Wi-Fi, card WAN, SSD mPCIe và có khi là cả GPU rời! Máy còn có thêm cả khay SIM (để xài khi máy có cắm WAN Card) và cả **detachable dual-storage BIOS module** (chip đôi BIOS có thể tháo rời) nữa. Máy cầm khá là nhẹ và mỏng, đồng thời các back cover được thiết kế để dễ dàng tháo rời, đúng là lap cho mấy doanh nhân có khác...!
 
-![image.jpg](/images/detachable_dualstorage_bios.jpg)
+![image.jpg](/images/detachable_dualstorage_bios.jpg)\
 <sup>vờ lờ luôn</sup>
 
 Vì con lap này xài khá là thích, nên mình cũng đã quyết định vọc vạch vài thứ trên đó luôn. Mình cũng đã thử undervolting để khiến cho con i7-4600U trong máy chạy đỡ nóng khi max xung nhịp Turbo, và hơn cả là đã mod thành công logo khởi động của máy. Như nào thì cùng follow mình nhé!
@@ -108,10 +108,10 @@ Sau khi mở file này lên, ta thấy được tất cả các tùy chọn BIOS
 
 Sau khi mở file, mình dành vài phút lục qua các tùy chọn và tìm được một số thứ:
 
-![image.png](/images/bios_lock_ifr.png)
-![image.png](/images/bios_interface_lock_ifr.png)
-![image.png](/images/me_fw_image_re_flash_ifr.png)
-![image.png](/images/var_store_name.png)
+![image.png](/images/bios_lock_ifr.png)\
+![image.png](/images/bios_interface_lock_ifr.png)\
+![image.png](/images/me_fw_image_re_flash_ifr.png)\
+![image.png](/images/var_store_name.png)\
 <sup>Chú ý tới `VarOffset` và `VarStore` nhé, mình sẽ giải thích về sau!</sup>
 
 Theo như mình tìm hiểu qua, `BIOS Lock` và `BIOS Interface Lock` là hai khóa trong firmware dùng để chặn flash BIOS. `Me Fw Image Re-Flash` dùng để cho phép Intel ME được đọc và được nạp lại, nói chung là cho phép read và write access luôn.
@@ -153,7 +153,7 @@ Cuối cùng mới đến phần thú vị các bạn ạ...! Tiếp tục mở 
 
 Thường trong BIOS, các nhà sản xuất sẽ sử dụng những định dạng ảnh như BMP, JPG và PNG. Việc của chúng ta là tìm chính xác cái boot logo của nhà sản xuất và thay thôi. Nhưng mà, khi nhìn qua đống này thì... nhìn **hơi loạn nhỉ!?**
 
-![image.png](/images/uefitool_mess.png)
+![image.png](/images/uefitool_mess.png)\
 <sup>mịe, nhìn thế này thì biết tìm đi đâu!?</sup>
 
 Thực ra việc tìm ảnh nó không khó lắm, nếu các bạn động não đôi chút. Bằng cách sử dụng Hex pattern Search của UEFITool, các bạn có thể tìm ảnh trong vòng nháy mắt.
